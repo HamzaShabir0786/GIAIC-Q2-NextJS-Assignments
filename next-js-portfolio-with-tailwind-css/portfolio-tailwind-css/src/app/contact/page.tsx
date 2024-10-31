@@ -78,6 +78,7 @@ export default function Contact() {
               </div>
             </div>
           </div>
+
           <div className="wrapper-send-btn flex justify-center items-center h-[12vh]">
             <button
               type="submit"
