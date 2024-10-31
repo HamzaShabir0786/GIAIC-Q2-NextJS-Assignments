@@ -16,7 +16,7 @@
   border-bottom: 3px solid black;
   border-radius: 10px;
   width: 0%;
-  margin-top: 18px;
+  margin-top: 20px;
   transition: all 0.2s linear;
 }
 .links-div ul li a:hover::before {
@@ -74,15 +74,10 @@
   @apply mt-[0.5rem] text-center leading-[25px];
 }
 .grid-items button {
-  padding: 0.8rem;
-  width: 14rem;
   background: linear-gradient(40deg, #8a70f3, white);
-  border: none;
-  border-radius: 20px;
-  cursor: pointer;
-  margin-top: 0.5rem;
   transition: all 0.2s linear;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4);
+  @apply w-[14rem] p-[0.8rem] border-none rounded-[20px] cursor-pointer mt-[.5rem];
 }
 .grid-items button a {
   @apply text-[#5228f9] font-[700] text-[1.2rem];
@@ -167,11 +162,10 @@
 
 @media (max-width: 1240px) {
   .grid-2 .img-div {
-    width: 30rem;
-    height: 30rem;
+    @apply w-[30rem] h-[30rem];
   }
   .store-div {
-    flex-direction: column;
+    @apply flex-col;
   }
 }
 
@@ -179,132 +173,112 @@
   .home-main {
     grid-template-rows: minmax(100px, auto);
     grid-template-columns: repeat(1, minmax(300px, 1fr));
-    height: 90vh;
-    padding-top: 5rem;
+    @apply h-[90vh] mt-[5rem];
   }
 
   .grid-2 {
-    display: none;
+    @apply hidden;
   }
   .grid-1 {
-    padding-top: 1rem;
+    @apply pt-4;
   }
 }
 
 @media (max-width: 1001px) {
   .footer3 {
-    grid-column: span 2;
+    @apply col-span-2;
   }
 }
 
 @media (max-width: 920px) {
   .services-grid {
-    padding: 0.1rem;
+    @apply p-[0.1rem];
   }
   .inner-nav .links-div ul {
-    gap: 1.5rem;
+    @apply gap-[1.5rem];
   }
   .section-services .services-para {
-    line-height: 30px;
-    font-size: 1rem;
+    @apply text-[1rem] leading-[30px];
   }
   .grid-1 p {
-    font-size: 1rem;
-    line-height: 30px;
+    @apply text-[1rem] leading-[30px];
   }
 }
 
 @media (max-width: 800px) {
   .section-contact {
-    padding: 0.2rem;
-    height: auto;
-    width: 100%;
+    @apply w-full h-auto p-[0.2rem];
   }
   .contact-div {
-    height: auto;
-    width: 100%;
-    padding: 0.2rem 0.2rem;
     grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+    @apply h-auto w-full p-[0.2rem];
   }
   .contact-item5 {
-    grid-column: span 1;
-    height: auto;
+    @apply col-span-1 h-auto;
   }
   .send-message-btn {
-    justify-content: center;
-    align-items: center;
+    @apply justify-center items-center;
   }
 }
 
 /* New Addition */
 @media (max-width: 800px) {
   .contact-item5 {
-    grid-column: span 2;
-    height: auto;
+    @apply h-auto col-span-2;
   }
 }
 
 /* New Addition */
 @media (max-width: 620px) {
   .contact-item5 {
-    grid-column: span 1;
-    height: auto;
+    @apply h-auto col-span-1;
   }
 }
 
 @media (max-width: 692px) {
   .footer3 {
-    grid-column: span 1;
+    @apply col-span-1;
   }
 }
 
 @media (max-width: 680px) {
   .inner-nav {
-    padding: 0.5rem;
-    width: 90%;
-    flex-direction: column;
-    justify-content: start;
+    @apply p-[0.5rem] w-[90%] justify-start flex-col;
   }
 }
 
 @media (max-width: 580px) {
   .custom-shape-divider-bottom-1729883666 svg {
-    height: 60px;
+    @apply h-[60px];
   }
 }
 
 @media (max-width: 420px) {
   .custom-shape-divider-bottom-1729883666 svg {
-    height: 50px;
+    @apply h-[50px];
   }
   .section-services {
-    padding: 0.5rem;
-    padding-top: 4rem;
+    @apply p-[0.5rem] pt-[4rem];
   }
   .home-main {
-    padding: 0.2rem;
-    padding-top: 1rem;
-    height: 80vh;
+    @apply h-80vh p-[0.2rem] pt-4;
   }
   .grid-1 {
-    padding: 0.2rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    @apply flex flex-col items-center p-[0.2rem];
   }
   .grid-1 h1 {
-    font-size: 1.5rem;
+    @apply text-[1.5rem];
   }
   .grid-1 p {
-    text-align: center;
+    @apply text-center;
   }
   .section-footer {
-    padding: 0.2rem;
+    @apply p-[0.2rem];
   }
 }
 
 @media (max-width: 320px) {
   .home-main {
-    height: 100vh;
+    @apply h-screen;
   }
 }
