@@ -10,7 +10,7 @@ export default function Services() {
           I am front-end Developer but in future I will able to give as a full
           stack Developer and as well as AI Agent Developer.
         </p>
-        <div className="services-grid h-auto grid p-4 gap-[5px] auto-rows-[450px]">
+        <div className="services-grid h-auto grid p-4 gap-[5px] auto-rows-[470px]">
           <div className="grid-items item-1">
             <div className="skill-div">
               <Image
