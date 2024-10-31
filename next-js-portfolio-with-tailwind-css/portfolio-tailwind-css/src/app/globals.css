@@ -68,11 +68,12 @@
   @apply w-full h-full object-cover rounded-full;
 }
 .grid-items strong {
-  @apply text-[#5228f9] font-[1.5rem] mt-4 inline-block;
+  @apply text-[#5228f9] text-[1.5rem] mt-4 inline-block;
 }
 .grid-items p {
   @apply mt-[0.5rem] text-center leading-[25px];
 }
+
 .grid-items button {
   background: linear-gradient(40deg, #8a70f3, white);
   transition: all 0.2s linear;
@@ -261,7 +262,7 @@
     @apply p-[0.5rem] pt-[4rem];
   }
   .home-main {
-    @apply h-[80vh] p-[0.2rem] pt-4;
+    @apply h-[80vh] p-[0.2rem] pt-[1rem];
   }
   .grid-1 {
     @apply flex flex-col items-center p-[0.2rem];
