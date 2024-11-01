@@ -500,6 +500,7 @@ textarea {
 
 @media (max-width: 320px) {
   .home-main {
-    height: 100vh;
+    height: auto;
+    padding-bottom: 5rem;
   }
 }
