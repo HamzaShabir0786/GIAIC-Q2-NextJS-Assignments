@@ -262,10 +262,10 @@
     @apply p-[0.5rem] pt-[4rem];
   }
   .home-main {
-    @apply h-auto p-[0.2rem] pt-[1rem] pb-[5rem];
+    @apply h-auto p-[0.2rem]  pb-[5rem];
   }
   .grid-1 {
-    @apply flex flex-col items-center  p-[0.2rem];
+    @apply flex flex-col items-center  p-[0.2rem]  justify-start;
   }
   .grid-1 h1 {
     @apply text-[1.5rem];
