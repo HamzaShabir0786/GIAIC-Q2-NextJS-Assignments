@@ -478,7 +478,8 @@ textarea {
   .home-main {
     padding: 0.2rem;
     padding-top: 1rem;
-    height: 80vh;
+    height: auto;
+    padding-bottom: 5rem;
   }
   .grid-1 {
     padding: 0.2rem;
