@@ -269,7 +269,7 @@
     @apply text-[1.5rem];
   }
   .grid-1 p {
-    @apply text-center;
+    @apply text-center text-blue-500;
   }
   .section-services {
     @apply p-[0.5rem] pt-[4rem];
