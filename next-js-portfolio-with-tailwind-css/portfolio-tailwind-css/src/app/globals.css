@@ -258,20 +258,21 @@
   .custom-shape-divider-bottom-1729883666 svg {
     @apply h-[50px];
   }
-  .section-services {
-    @apply p-[0.5rem] pt-[4rem];
-  }
+
   .home-main {
-    @apply h-auto p-[0.2rem]  pb-[5rem];
+    @apply h-auto p-[0.2rem]  pb-[5rem] pt-4 mt-[0rem];
   }
   .grid-1 {
-    @apply flex flex-col items-center  p-[0.2rem]  justify-start;
+    @apply flex flex-col items-center  p-[0.2rem] pt-[-2rem];
   }
   .grid-1 h1 {
     @apply text-[1.5rem];
   }
   .grid-1 p {
     @apply text-center;
+  }
+  .section-services {
+    @apply p-[0.5rem] pt-[4rem];
   }
   .section-footer {
     @apply p-[0.2rem];
