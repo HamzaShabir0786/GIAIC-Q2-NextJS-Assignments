@@ -262,7 +262,7 @@
     @apply p-[0.5rem] pt-[4rem];
   }
   .home-main {
-    @apply h-[80vh] p-[0.2rem] pt-[1rem];
+    @apply h-auto p-[0.2rem] pt-[1rem] pb-[5rem];
   }
   .grid-1 {
     @apply flex flex-col items-center  p-[0.2rem];
@@ -278,8 +278,8 @@
   }
 }
 
-@media (max-width: 320px) {
+/* @media (max-width: 320px) {
   .home-main {
     @apply h-screen;
   }
-}
+} */
