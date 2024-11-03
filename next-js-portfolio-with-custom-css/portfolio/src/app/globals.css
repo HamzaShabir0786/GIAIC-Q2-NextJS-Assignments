@@ -29,6 +29,9 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+  border: 2px solid transparent;
+  border-right-color: #5228f9;
+  border-left-color: #5228f9;
 }
 .inner-nav .logo-div strong {
   font-size: 1.4rem;
