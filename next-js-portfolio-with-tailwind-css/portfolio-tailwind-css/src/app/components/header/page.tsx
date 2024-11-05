@@ -2,8 +2,8 @@ import Link from "next/link";
 export default function Header() {
   return (
     <>
-      <nav className="nav-container w-[100%] p-[.5rem] bg-[#e5d9f2] flex justify-center align-center z-[-2] shadow-custom-nav">
-        <div className="inner-nav p-[.5rem] w-[70%] rounded-[30px] bg-[#cdc1ff] flex justify-around items-center">
+      <nav className="nav-container w-[100%] p-[.5rem] bg-[#e5d9f2] flex justify-center align-center z-[999] shadow-custom-nav sticky top-0">
+        <div className="inner-nav p-[.5rem] w-[70%] rounded-[30px] bg-[#cdc1ff] flex justify-around items-center border-x-[3px] border-[#a667eb]">
           <div className="logo-div">
             <strong className="text-[1.4rem] cursor-pointer tracking-[2px]">
               Portfolio

@@ -134,9 +134,12 @@
 .icon-div {
   @apply w-[10rem] text-[2rem] justify-around flex;
 }
+.fa-brands {
+  @apply transition-all duration-500 ease-linear;
+}
 .fa-brands:hover {
-  @apply text-[#5228f9]
-  text-[2.2rem];
+  transform: rotateZ(360deg);
+  @apply text-[#5228f9] text-[2.2rem];
 }
 .common-footer a {
   @apply text-black;

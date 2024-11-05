@@ -142,9 +142,9 @@ export default function Services() {
             <strong>Web Hosting</strong>
             <br />
             <p>
-              I am a passionate Web-Developer as well web hoster.You can hire me
-              as a front-end webdeveloper as well web hoster.If you want to
-              develop web and host so contact me.
+              I'm a passionate Web-Developer as well web hoster.You can hire me
+              as a front-end webdeveloper and web-hoster.If you want to develop
+              web and host so contact me.
             </p>
             <button>
               <Link href="/contact" target="_blank">
