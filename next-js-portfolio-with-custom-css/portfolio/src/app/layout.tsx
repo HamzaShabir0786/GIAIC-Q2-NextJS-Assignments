@@ -20,7 +20,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
       <body className={inter.className}>
         <Header />
         {children}
