@@ -271,7 +271,8 @@ textarea {
   background: linear-gradient(40deg, #8a70f3, #d6d2e6);
   padding: 1rem;
   border-radius: 20px;
-  place-items: center;
+  display: grid;
+  place-items: center; /*ass new*/
 }
 .grid-items .skill-div {
   height: 11rem;
