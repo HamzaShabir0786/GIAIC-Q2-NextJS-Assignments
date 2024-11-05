@@ -268,7 +268,7 @@ textarea {
   padding: 1rem;
 }
 .grid-items {
-  background: linear-gradient(40deg, #8a70f3, #d6d2e6);
+  background: linear-gradient(40deg, #8a70f3, #d6d2e6, skyblue);
   padding: 1rem;
   border-radius: 20px;
   display: grid;
