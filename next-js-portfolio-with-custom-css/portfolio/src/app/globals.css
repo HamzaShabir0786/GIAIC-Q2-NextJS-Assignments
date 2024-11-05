@@ -14,8 +14,7 @@
 .nav-container {
   width: 100%;
   padding: 0.5rem;
-  /* background-color: #e5d9f2;
-  background-color: rgba(229, 217, 242, 0.8); */
+
   background-color: transparent; /*add new*/
   display: flex;
   justify-content: center;
@@ -268,7 +267,7 @@ textarea {
   padding: 1rem;
 }
 .grid-items {
-  background: linear-gradient(40deg, #8a70f3, #d6d2e6, skyblue);
+  background: linear-gradient(40deg, #8a70f3, #d6d2e6);
   padding: 1rem;
   border-radius: 20px;
   display: grid;

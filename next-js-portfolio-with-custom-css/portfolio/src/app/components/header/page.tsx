@@ -9,20 +9,19 @@ export default function Header() {
               <strong>Portfolio</strong>
             </div>
           </div>
-          <div data-aos="fade-left">
-            <div className="links-div">
-              <ul>
-                <li>
-                  <Link href="./home">Home</Link>
-                </li>
-                <li>
-                  <Link href="./services">Services</Link>
-                </li>
-                <li>
-                  <Link href="./contact">Contact</Link>
-                </li>
-              </ul>
-            </div>
+
+          <div className="links-div">
+            <ul>
+              <li>
+                <Link href="./home">Home</Link>
+              </li>
+              <li>
+                <Link href="./services">Services</Link>
+              </li>
+              <li>
+                <Link href="./contact">Contact</Link>
+              </li>
+            </ul>
           </div>
         </div>
       </nav>
