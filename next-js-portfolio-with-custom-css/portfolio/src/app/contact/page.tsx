@@ -39,7 +39,7 @@ export default function Contact() {
             <div className="contact-item3 contact-items">
               <div className="info-flex">
                 <label htmlFor="adress">
-                  <strong>Adress:</strong>
+                  <strong>Address:</strong>
                 </label>
                 <input
                   type="text"

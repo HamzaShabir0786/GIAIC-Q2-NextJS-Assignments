@@ -116,6 +116,7 @@
   font-size: 1.2rem;
   transition: all 0.2s linear;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4);
+  /* s */
 }
 .grid-1 button:hover {
   background: linear-gradient(40deg, #5228f9, white);
@@ -264,7 +265,7 @@ textarea {
   }
   to {
     width: 14.4rem;
-    height: 3.9 rem;
+    height: 3.9rem;
   }
 }
 .send-message-btn:hover {
