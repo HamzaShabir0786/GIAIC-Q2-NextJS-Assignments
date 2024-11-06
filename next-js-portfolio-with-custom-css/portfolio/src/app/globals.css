@@ -140,15 +140,18 @@
   border-left: 20px solid rebeccapurple;
   border-right: 20px solid rebeccapurple;
   background-color: rgb(117, 91, 174);
+
   padding: 1rem;
   animation: g2 10s infinite alternate-reverse;
 }
 @keyframes g2 {
   from {
+    border: 4px solid #cdc1ff;
     border-left: 20px solid rebeccapurple;
     border-right: 20px solid rebeccapurple;
   }
   to {
+    border: 4px solid black;
     border-left: 20px solid #cdc1ff;
     border-right: 20px solid #cdc1ff;
   }
@@ -252,6 +255,17 @@ textarea {
   font-size: 1.2rem;
   transition: all 0.2s linear;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4);
+  animation: move-btn 0.5s alternate-reverse infinite;
+}
+@keyframes move-btn {
+  from {
+    width: 14rem;
+    height: 3.5rem;
+  }
+  to {
+    width: 14.4rem;
+    height: 3.9 rem;
+  }
 }
 .send-message-btn:hover {
   background: linear-gradient(40deg, #5228f9, white);
