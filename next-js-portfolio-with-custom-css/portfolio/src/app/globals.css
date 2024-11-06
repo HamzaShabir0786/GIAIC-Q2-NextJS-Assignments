@@ -14,8 +14,9 @@
 .nav-container {
   width: 100%;
   padding: 0.5rem;
+  /* background-color: transparent;  */
 
-  background-color: transparent; /*add new*/
+  background-color: #e5d9f2;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -33,14 +34,15 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  border: 2px solid transparent;
+  border: 3px solid transparent;
   border-right-color: #5228f9;
   border-left-color: #5228f9;
 }
-.inner-nav .logo-div strong {
+.inner-nav .logo-div strong .logo {
   font-size: 1.4rem;
   cursor: pointer;
   letter-spacing: 2px;
+  color: rgb(68, 52, 52);
 }
 .inner-nav .links-div ul {
   display: flex;
@@ -111,7 +113,7 @@
   cursor: pointer;
   margin-top: 3rem;
   color: #5228f9;
-  font-size: 1rem;
+  font-size: 1.2rem;
   transition: all 0.2s linear;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4);
 }
@@ -131,10 +133,25 @@
 .grid-2 .img-div {
   width: 35rem;
   height: 35rem;
-  background-color: rebeccapurple;
+  /* background-color: rebeccapurple; */
   border: 4px solid #cdc1ff;
-  box-shadow: 0px 0px 10px 3px rgb(155, 116, 239);
+  /* box-shadow: 0px 0px 10px 3px rgb(155, 116, 239); */
   border-radius: 50%;
+  border-left: 20px solid rebeccapurple;
+  border-right: 20px solid rebeccapurple;
+  background-color: rgb(117, 91, 174);
+  padding: 1rem;
+  animation: g2 10s infinite alternate-reverse;
+}
+@keyframes g2 {
+  from {
+    border-left: 20px solid rebeccapurple;
+    border-right: 20px solid rebeccapurple;
+  }
+  to {
+    border-left: 20px solid #cdc1ff;
+    border-right: 20px solid #cdc1ff;
+  }
 }
 .grid-2 .img-div img {
   width: 100%;
@@ -263,7 +280,7 @@ textarea {
   grid-template-columns: repeat(3, minmax(300px, 1fr));
   grid-template-rows: repeat(2, 450px);
   grid-auto-rows: 450px;
-  gap: 5px;
+  gap: 10px;
   padding: 1rem;
 }
 .grid-items {
@@ -278,6 +295,7 @@ textarea {
   width: 11rem;
   border: 3px solid #5228f9;
   border-radius: 50%;
+  box-shadow: 0px 1px 12px #5228f9;
 }
 .grid-items .skill-div img {
   width: 100%;
@@ -318,6 +336,7 @@ textarea {
   transform: scale(1.1);
   color: black;
 }
+
 /* services secntion end here */
 .section-footer {
   height: auto;
@@ -348,7 +367,10 @@ textarea {
 .fa-brands:hover {
   color: #5228f9;
   font-size: 2.2rem;
+  transition: all 0.5s linear;
+  transform: rotate(360deg);
 }
+
 .common-footer a {
   color: black;
 }
@@ -386,6 +408,7 @@ textarea {
     grid-template-rows: minmax(100px, auto);
     grid-template-columns: repeat(1, minmax(300px, 1fr));
     height: 90vh;
+
     padding-top: 5rem;
   }
 
@@ -489,6 +512,10 @@ textarea {
     height: auto;
     padding-bottom: 5rem;
   }
+  .services-grid {
+    grid-template-rows: repeat(2, 500px);
+  }
+
   .grid-1 {
     padding: 0.2rem;
     display: flex;

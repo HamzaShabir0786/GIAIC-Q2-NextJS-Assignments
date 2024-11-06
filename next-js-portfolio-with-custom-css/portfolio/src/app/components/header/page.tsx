@@ -6,7 +6,11 @@ export default function Header() {
         <div className="inner-nav">
           <div data-aos="fade-right">
             <div className="logo-div">
-              <strong>Portfolio</strong>
+              <strong>
+                <Link href={"./home"} className="logo">
+                  Portfolio
+                </Link>
+              </strong>
             </div>
           </div>
 

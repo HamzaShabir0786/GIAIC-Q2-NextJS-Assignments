@@ -10,7 +10,7 @@ export default function Services() {
       <div className="section-services">
         <h2>My Sesrvices</h2>
         <p className="services-para">
-          I am front-end Developer but in future I will able to give as a full
+          I'm front-end Developer but in future I will able to give as a full
           stack Developer and as well as AI Agent Developer.
         </p>
 
@@ -24,12 +24,11 @@ export default function Services() {
                 alt="it is a skill pic"
               />
             </div>
-            <strong>Web-Development</strong>
+            <strong>Web-Developer</strong>
             <br />
             <p>
-              I am a passionate Web-Developer.You can hire me as a front-end
-              webdeveloper.If you want to unique, fully responvise and
-              userfrinedly website so contact me.
+              I'm a passionate Web-Developer.If you want to unique, fully
+              responvise and userfrinedly website so contact me.
             </p>
             <button>
               <Link href="/contact" target="_blank">
@@ -50,9 +49,8 @@ export default function Services() {
             <strong>UI UX Designer</strong>
             <br />
             <p>
-              I am a passionate UI UX Designer.You can hire me as a UI UX
-              Designer.If you want to unique, fully actractivness and
-              userfrinedly website so contact me.
+              I'm a passionate UI UX Designer.If you want to unique, fully
+              actractivness and userfrinedly website so contact me.
             </p>
             <button>
               <Link href="/contact" target="_blank">
@@ -73,9 +71,8 @@ export default function Services() {
             <strong>SEO</strong>
             <br />
             <p>
-              I am a passionate SEO Developer.You can hire me for web's SEO .If
-              you want to unique, and highly well rank SEO for all browser so
-              contact me.
+              I'm aSEO Developer.If you want to unique, and highly well rank SEO
+              for all browser so contact me.
             </p>
             <button>
               <Link href="/contact" target="_blank">
@@ -96,9 +93,8 @@ export default function Services() {
             <strong>Graphic Designer</strong>
             <br />
             <p>
-              I am a passionate Graphic Designer.You can hire me as a Graphic
-              Designer.If you want to unique, fully actractiv and userfrinedly
-              Graphics so contact me.
+              I'm a Graphic Designer.If you want to unique, fully actractiv and
+              userfrinedly Graphics so contact me.
             </p>
             <button>
               <Link href="/contact" target="_blank">
@@ -119,9 +115,8 @@ export default function Services() {
             <strong>Video Editing</strong>
             <br />
             <p>
-              I am a passionate Vedio Editor. If you want to unique, actractiv
-              videos so contact me.My tools for video editing are Adobe photo
-              shop, Filmora and 4kedit.
+              I'm a Vedio Editor. If you want to unique videos so contact me.My
+              tools for video editing are Adobe premier pro and Filmora.
             </p>
             <button>
               <Link href="/contact" target="_blank">
@@ -142,9 +137,8 @@ export default function Services() {
             <strong>Web Hosting</strong>
             <br />
             <p>
-              I'm a passionate Web-Developer as well web hoster.You can hire me
-              as a front-end webdeveloper and web-hoster.If you want to develop
-              web and host so contact me.
+              I'm a Web-Developer as well Hoster.You can hire me as a front-end
+              webdeveloper and hoster.
             </p>
             <button>
               <Link href="/contact" target="_blank">

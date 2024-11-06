@@ -25,7 +25,7 @@ export default function Footer() {
               Hijri
             </p>
             <p>
-              <strong>Follow me</strong>
+              <strong>Follow me:</strong>
             </p>
             <div className="icon-div">
               <a href="https://www.facebook.com/M.Hamza2205" target="_blank">
