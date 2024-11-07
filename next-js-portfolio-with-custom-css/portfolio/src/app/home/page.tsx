@@ -11,7 +11,7 @@ export default function Homes() {
       <main className="home-main">
         <div className="grid-1">
           <strong>This is a portfolio</strong>
-          <h1 >Welcome to my portfolio</h1>
+          <h1>Welcome to my portfolio</h1>
           <p>
             My name is Hamza Shabir and I'm a student of Genrative AI at GIAIC
             Karachi.I have multiple skills such as Web Development, UI UX
@@ -27,6 +27,7 @@ export default function Homes() {
         </div>
         {/* grid 1 end here */}
         <div className="grid-2">
+         
           <div className="img-div">
             <Image
               src="/image/yahya sinvar.jpg"
