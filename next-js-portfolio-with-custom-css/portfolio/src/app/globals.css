@@ -38,6 +38,11 @@
   cursor: pointer;
   letter-spacing: 2px;
   color: rgb(102, 24, 212);
+  background-image: url("/image/backgroundPic.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-size: 8rem 1.7rem;
+  background-position-x: center;
 }
 .inner-nav .links-div ul {
   display: flex;
@@ -276,6 +281,8 @@ textarea {
 .section-services h2 {
   font-size: 2rem;
   color: #8a70f3;
+
+  display: inline-block;
 }
 .section-services .services-para {
   font-size: 1.2rem;

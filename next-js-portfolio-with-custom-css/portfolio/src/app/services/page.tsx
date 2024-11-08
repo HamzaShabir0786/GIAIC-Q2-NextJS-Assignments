@@ -115,7 +115,7 @@ export default function Services() {
             <strong>Video Editing</strong>
             <br />
             <p>
-              I'm a Vedio Editor. If you want to unique videos so contact me.My
+              I'm a Video Editor. If you want to unique videos so contact me.My
               tools for video editing are Adobe premier pro and Filmora.
             </p>
             <button>
