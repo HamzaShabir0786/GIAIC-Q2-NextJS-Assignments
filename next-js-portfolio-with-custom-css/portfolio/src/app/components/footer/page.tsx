@@ -37,17 +37,14 @@ export default function Footer() {
               >
                 <i className="fa-brands fab fa-linkedin"></i>
               </a>
-              <a href="https://www.instagram.com/?hl=en" target="_blank">
+              <a
+                href="https://www.instagram.com/hamza_shabir_0786/?hl=en"
+                target="_blank"
+              >
                 <i className="fa-brands fab fa-instagram"></i>
               </a>
-              <a href="#">
-                <img src="photos/instagram.png" alt="" />
-              </a>
-              <a href="#">
-                <img src="photos/twitter.png" alt="" />
-              </a>
-              <a href="#">
-                <img src="photos/linkedin.png" alt="" />
+              <a href="tel:+923183246070" target="_blank">
+                <i className="fa-brands fab fa-whatsapp"></i>
               </a>
             </div>
           </div>

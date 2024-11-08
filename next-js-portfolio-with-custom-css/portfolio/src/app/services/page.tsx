@@ -10,8 +10,9 @@ export default function Services() {
       <div className="section-services">
         <h2>My Sesrvices</h2>
         <p className="services-para">
-          I'm front-end Developer but in future I will able to give as a full
-          stack Developer and as well as AI Agent Developer.
+          I'm currently a front-end developer, but in the future, I aim to
+          expand my skills to become a full-stack developer, an AI agent
+          developer, and a generative AI developer.
         </p>
 
         <div className="services-grid">
@@ -27,8 +28,9 @@ export default function Services() {
             <strong>Web-Developer</strong>
             <br />
             <p>
-              I'm a passionate Web-Developer.If you want to unique, fully
-              responvise and userfrinedly website so contact me.
+              I’m a passionate web developer. If you’re looking for a unique,
+              fully responsive, and user-friendly website, feel free to contact
+              me..!
             </p>
             <button>
               <Link href="/contact" target="_blank">
