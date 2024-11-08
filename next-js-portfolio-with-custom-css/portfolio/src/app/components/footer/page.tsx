@@ -50,10 +50,24 @@ export default function Footer() {
           </div>
           <div className="footer2 common-footer">
             <h3>More Information</h3>
-            <a href="#">Privicy </a>
-            <a href="#">Delivery Information </a>
-            <a href="#">Terms & Condition</a>
-            <a href="#">Contact Us </a>
+            <a
+              href="https://www.crn.com/news/ai/2024/gartner-s-top-10-tech-trends-of-2025-agentic-ai-robots-and-disinformation-security"
+              target="_blank"
+            >
+              2025 is the year of Agentic AI
+            </a>
+            <a href="https://www.ibm.com/topics/langchain" target="_blank">
+              The Role of LangChian in Artificial Intelligence..
+            </a>
+            <a
+              href="https://www.analyticsvidhya.com/blog/2024/07/langgraph-revolutionizing-ai-agent/"
+              target="_blank"
+            >
+              Do you know about LangGraph?
+            </a>
+            <a href="/contact" target="_blank">
+              Contact Us{" "}
+            </a>
           </div>
           <div className="footer3 common-footer">
             <h3>Install App</h3>
