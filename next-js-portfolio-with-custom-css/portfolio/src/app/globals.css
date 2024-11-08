@@ -363,9 +363,9 @@ textarea {
   padding: 4rem 2rem;
   background-color: #cdc1ff;
 }
-.tool-info-div {
+/* .tool-info-div {
   padding: 0.5rem;
-}
+} */
 .section-tool h3 {
   font-size: 2rem;
   color: #8a70f3;
@@ -380,7 +380,7 @@ textarea {
 }
 .tool-grid-con {
   height: auto;
-  padding: 2rem;
+  padding: 0.5rem;
   display: grid;
   grid-template-columns: repeat(10, minmax(150px, 1fr));
   grid-template-rows: repeat(1, 200px);
@@ -405,7 +405,7 @@ textarea {
 }
 
 .tool-items:hover {
-  transform: scale(1.05);
+  transform: scale(1.09);
 }
 /* tools section end here */
 .section-footer {
@@ -462,10 +462,10 @@ textarea {
   }
   .services-grid {
     height: auto;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   }
   .section-footer {
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   }
 }
 
@@ -614,6 +614,9 @@ textarea {
   .section-tool {
     padding: 0.2rem;
     padding-top: 1rem;
+  }
+  .tool-info-div {
+    padding: 0.5rem;
   }
 
   .section-footer {
