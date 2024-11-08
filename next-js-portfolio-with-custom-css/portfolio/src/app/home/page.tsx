@@ -13,11 +13,13 @@ export default function Homes() {
           <strong>This is a portfolio</strong>
           <h1>Welcome to my portfolio</h1>
           <p>
-            My name is Hamza Shabir and I'm a student of Genrative AI at GIAIC
-            Karachi.I have multiple skills such as Web Development, UI UX
-            Designer, video editor and Graphic Designer.There are my collections
-            HTML, CSS, Tailwind CSS, JavaScript, TypeScript, React Js, and Next
-            JS.
+            My name is Hamza Shabir, and I'm currently a student specializing in
+            Generative AI at GIAIC, Karachi. I possess a diverse set of skills
+            in fields like web development, UI/UX design, video editing, and
+            graphic design. My technical expertise includes HTML, CSS, Tailwind
+            CSS, JavaScript, TypeScript, React.js, Next.js, Python, Pandas and
+            Numpy.God willing, in the future, I will be able to work on AI-based
+            projects.
           </p>
           <button>
             <Link href="/contact" target="_blank">
@@ -27,7 +29,6 @@ export default function Homes() {
         </div>
         {/* grid 1 end here */}
         <div className="grid-2">
-         
           <div className="img-div">
             <Image
               src="/image/yahya sinvar.jpg"
