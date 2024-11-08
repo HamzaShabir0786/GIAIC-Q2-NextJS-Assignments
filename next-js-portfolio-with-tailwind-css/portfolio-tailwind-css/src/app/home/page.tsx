@@ -8,7 +8,7 @@ export const metadata: Metadata = {
 export default function Homes() {
   return (
     <>
-      <main className="home-main h-[90vh] w-[100%] bg-gradient-to-bottom mt-[2px] px-8 grid gap-[10px] relative ">
+      <main className="home-main h-auto w-[100%] bg-gradient-to-bottom mt-[2px] pb-[10rem] px-8 grid gap-[10px] relative ">
         <div className="grid-1 pt-[10rem] px-4">
           <strong className="text-[rgb(119,134,245)]">
             This is a portfolio
@@ -24,7 +24,7 @@ export default function Homes() {
             JS.
           </p>
           <button
-            className="p-4 w-56 font-[800] border-none rounded-[20px] cursor-pointer mt-12  text-[#5228f9] text-[1rem] ransition-all duration-200 
+            className="p-4 w-56 font-[700] border-none rounded-[20px] cursor-pointer mt-12  text-[#8b3ede]  text-[1.4rem] ransition-all duration-200 
           shadow-[0px_2px_4px_rgba(0,0,0,0.4)] hover:text-black hover:scale-110 hover:bg-[linear-gradient(40deg,#5228f9,white)]"
           >
             <Link href="/contact" target="_blank">

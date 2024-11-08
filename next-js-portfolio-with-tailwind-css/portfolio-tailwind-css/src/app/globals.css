@@ -59,7 +59,11 @@
   background: linear-gradient(40deg, #8a70f3, #d6d2e6);
   @apply p-4
   rounded-[20px]
-  grid place-items-center;
+  grid place-items-center
+  transition-all duration-200 ease-linear;
+}
+.grid-items:hover {
+  transform: scale(1.03);
 }
 .grid-items .skill-div {
   @apply h-[11rem] w-[11rem] border-[3px] border-[#5228f9] rounded-full;

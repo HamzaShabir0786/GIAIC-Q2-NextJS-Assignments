@@ -5,7 +5,7 @@ export default function Header() {
       <nav className="nav-container w-[100%] p-[.5rem] bg-[#e5d9f2] flex justify-center align-center z-[999] shadow-custom-nav sticky top-0">
         <div className="inner-nav p-[.5rem] w-[70%] rounded-[30px] bg-[#cdc1ff] flex justify-around items-center border-x-[3px] border-[#a667eb]">
           <div className="logo-div">
-            <strong className="text-[1.4rem] cursor-pointer tracking-[2px]  bg-custom-bg bg-no-repeat bg-custom-size bg-center-x">
+            <strong className="text-[1.4rem] cursor-pointer tracking-[2px] text-[#8b3ede] ">
               Portfolio
             </strong>
           </div>
