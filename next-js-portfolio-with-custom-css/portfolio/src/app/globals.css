@@ -113,7 +113,7 @@
   border-radius: 20px;
   cursor: pointer;
   margin-top: 3rem;
-  color: #5228f9;
+  color: rgb(102, 24, 212);
   font-size: 1.2rem;
   transition: all 0.2s linear;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4);
@@ -403,7 +403,6 @@ textarea {
   background: linear-gradient(40deg, #8a70f3, #1b1827);
   border-radius: 20px;
 }
-
 .tool-items:hover {
   transform: scale(1.09);
 }
