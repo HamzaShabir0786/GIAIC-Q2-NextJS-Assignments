@@ -1,4 +1,5 @@
 import Services from "../services/page";
+import Tools from "../tools/page";
 import Image from "next/image";
 import Link from "next/link";
 import { Metadata } from "next";
@@ -64,6 +65,7 @@ export default function Homes() {
         </div>
       </main>
       <Services />
+      <Tools />
     </>
   );
 }
