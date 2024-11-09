@@ -6,6 +6,7 @@
   list-style-type: none;
   font-family: sans-serif;
 }
+
 .nav-container {
   width: 100%;
   padding: 0.5rem;
@@ -236,7 +237,6 @@ textarea {
   background-color: transparent;
   border: none;
 }
-/* new add */
 .wrapper-send-btn {
   display: flex;
   justify-content: center;
@@ -390,6 +390,7 @@ textarea {
 .tool-items {
   background: linear-gradient(40deg, #8a70f3, #d6d2e6);
   border-radius: 10px;
+
   transition: all 0.2s linear;
   background-repeat: no-repeat;
   background-size: contain;

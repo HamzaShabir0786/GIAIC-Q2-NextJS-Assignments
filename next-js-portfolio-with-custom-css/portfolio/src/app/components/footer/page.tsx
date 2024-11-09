@@ -43,7 +43,7 @@ export default function Footer() {
               >
                 <i className="fa-brands fab fa-instagram"></i>
               </a>
-              <a href="tel:+923183246070" target="_blank">
+              <a href="https:/wa.me/+923183246070" target="_blank">
                 <i className="fa-brands fab fa-whatsapp"></i>
               </a>
             </div>
