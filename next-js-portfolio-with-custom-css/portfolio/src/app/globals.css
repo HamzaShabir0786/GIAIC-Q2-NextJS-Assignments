@@ -466,6 +466,7 @@ h2 {
 }
 .inner-not-found a {
   font-size: 1.5rem;
+  color: #8e53a6;
 }
 /* not found end here */
 @media (max-width: 1460px) {
