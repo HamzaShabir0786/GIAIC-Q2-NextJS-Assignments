@@ -6,6 +6,9 @@
   list-style-type: none;
   font-family: sans-serif;
 }
+body {
+  background-color: #cdc1ff;
+}
 .nav-container {
   width: 100%;
   padding: 0.5rem;
@@ -405,6 +408,7 @@ textarea {
 /* tools section end here */
 .section-footer {
   height: auto;
+
   width: 100%;
   display: grid;
   grid-template-columns: repeat(3, minmax(300px, 1fr));
@@ -496,11 +500,15 @@ h2 {
     flex-direction: column;
   }
 }
+@media (max-width: 1110px) {
+  .home-main {
+    padding-bottom: 15rem;
+  }
+}
 @media (max-width: 1030px) {
   .home-main {
     grid-template-rows: minmax(100px, auto);
     grid-template-columns: repeat(1, minmax(300px, 1fr));
-    height: 90vh;
 
     padding-top: 5rem;
   }
