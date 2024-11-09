@@ -392,15 +392,15 @@ textarea {
   height: auto;
   padding: 0.5rem;
   display: grid;
-  grid-template-columns: repeat(10, minmax(150px, 1fr));
-  grid-template-rows: repeat(1, 200px);
+  grid-template-columns: repeat(5, minmax(140px, 200px));
+  grid-template-rows: repeat(2, 200px);
   grid-auto-rows: 200px;
-  gap: 15px;
+  gap: 25px;
 }
+
 .tool-items {
   background: linear-gradient(40deg, #8a70f3, #d6d2e6);
   border-radius: 10px;
-
   transition: all 0.2s linear;
   background-repeat: no-repeat;
   background-size: contain;
@@ -417,6 +417,7 @@ textarea {
 .tool-items:hover {
   transform: scale(1.09);
 }
+
 /* tools section end here */
 .section-footer {
   height: auto;
@@ -488,7 +489,6 @@ h2 {
 @media (max-width: 1460px) {
   .tool-grid-con {
     grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
-    grid-template-rows: repeat(1, 200px);
   }
 }
 @media (max-width: 1320px) {

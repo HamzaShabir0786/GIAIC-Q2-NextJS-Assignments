@@ -43,6 +43,9 @@ export default function Footer() {
               >
                 <i className="fa-brands fab fa-instagram"></i>
               </a>
+              <a href="https://github.com/HamzaShabir0786" target="_blank">
+                <i className="fa-brands fab fa-github"></i>
+              </a>
             </div>
           </div>
           <div className="footer2 common-footer">
