@@ -6,9 +6,21 @@
   list-style-type: none;
   font-family: sans-serif;
 }
+::-webkit-scrollbar {
+  width: 15px;
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(to bottom, black, #5228f9, black);
+  border-radius: 10px;
+}
+::-webkit-scrollbar-track {
+  background-color: #8a70f3;
+}
+
 body {
   background-color: #cdc1ff;
 }
+
 .nav-container {
   width: 100%;
   padding: 0.5rem;
