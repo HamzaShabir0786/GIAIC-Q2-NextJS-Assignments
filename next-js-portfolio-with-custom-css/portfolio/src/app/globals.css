@@ -6,7 +6,6 @@
   list-style-type: none;
   font-family: sans-serif;
 }
-
 .nav-container {
   width: 100%;
   padding: 0.5rem;
@@ -104,7 +103,6 @@
   font-size: 1.1rem;
   letter-spacing: 1px;
 }
-
 .grid-1 button {
   padding: 1rem;
   width: 14rem;
@@ -145,7 +143,6 @@
   animation: g2 10s infinite alternate-reverse;
   position: relative;
 }
-
 @keyframes g2 {
   0% {
     border: 4px solid black;
@@ -200,7 +197,6 @@
 
   gap: 10px;
 }
-
 .contact-items {
   background-color: #e5d9f2;
   border-radius: 5px;
@@ -357,7 +353,6 @@ textarea {
   transform: scale(1.1);
   color: black;
 }
-
 /* services secntion end here */
 .section-tool {
   padding: 4rem 2rem;
@@ -440,7 +435,6 @@ textarea {
   transition: all 0.5s linear;
   transform: rotate(360deg);
 }
-
 .common-footer a {
   color: black;
 }
@@ -492,7 +486,6 @@ h2 {
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   }
 }
-
 @media (max-width: 1240px) {
   .grid-2 .img-div {
     width: 30rem;
@@ -502,7 +495,6 @@ h2 {
     flex-direction: column;
   }
 }
-
 @media (max-width: 1030px) {
   .home-main {
     grid-template-rows: minmax(100px, auto);
@@ -519,13 +511,11 @@ h2 {
     padding-top: 1rem;
   }
 }
-
 @media (max-width: 1001px) {
   .footer3 {
     grid-column: span 2;
   }
 }
-
 @media (max-width: 920px) {
   .services-grid {
     padding: 0.1rem;
@@ -546,7 +536,6 @@ h2 {
     line-height: 30px;
   }
 }
-
 @media (max-width: 800px) {
   .section-contact {
     padding: 0.2rem;
@@ -564,29 +553,23 @@ h2 {
     height: auto;
   }
 }
-
-/* new addition */
 @media (max-width: 799px) {
   .contact-item5 {
     grid-column: span 2;
     height: auto;
   }
 }
-
-/* new addition */
 @media (max-width: 620px) {
   .contact-item5 {
     grid-column: span 1;
     height: auto;
   }
 }
-
 @media (max-width: 692px) {
   .footer3 {
     grid-column: span 1;
   }
 }
-
 @media (max-width: 680px) {
   .inner-nav {
     padding: 0.5rem;
@@ -595,13 +578,11 @@ h2 {
     justify-content: start;
   }
 }
-
 @media (max-width: 580px) {
   .custom-shape-divider-bottom-1729883666 svg {
     height: 60px;
   }
 }
-
 @media (max-width: 420px) {
   .custom-shape-divider-bottom-1729883666 svg {
     height: 50px;
@@ -647,7 +628,6 @@ h2 {
     padding: 0.2rem;
   }
 }
-
 @media (max-width: 320px) {
   .home-main {
     height: auto;
