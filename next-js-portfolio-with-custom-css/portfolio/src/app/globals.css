@@ -129,13 +129,15 @@ body {
   border-radius: 20px;
   cursor: pointer;
   margin-top: 3rem;
-  color: #8a70f3;
   font-size: 1.2rem;
   transition: all 0.2s linear;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4);
   display: flex;
   justify-content: space-around;
   align-items: center;
+}
+.grid-1 button a {
+  color: #5b36f3;
 }
 .fa-arrow-right {
   background-color: #8a70f3;
@@ -148,7 +150,6 @@ body {
 }
 .grid-1 button:hover {
   background: linear-gradient(40deg, #5228f9, white);
-  color: black;
   scale: 1.1;
 }
 .grid-2 {
