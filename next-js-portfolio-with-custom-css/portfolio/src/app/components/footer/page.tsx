@@ -1,8 +1,9 @@
 import Image from "next/image";
 
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faHome } from "@fortawesome/free-solid-svg-icons";
-import { fa0 } from "@fortawesome/free-solid-svg-icons/fa0";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import { faHome } from "@fortawesome/free-solid-svg-icons";
+// import { fa0 } from "@fortawesome/free-solid-svg-icons/fa0";
+import "./footer.css";
 
 export default function Footer() {
   return (

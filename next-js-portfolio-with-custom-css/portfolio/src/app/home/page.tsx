@@ -1,6 +1,7 @@
 import Services from "../services/page";
 import Tools from "../tools/page";
 import Image from "next/image";
+import "./home.css";
 
 import { Metadata } from "next";
 export const metadata: Metadata = {

@@ -1,0 +1,39 @@
+.section-footer {
+  height: auto;
+
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(300px, 1fr));
+  grid-template-rows: repeat(1, 300px);
+  grid-auto-rows: 300px;
+  background-color: #cdc1ff;
+  background: linear-gradient(40deg, #8a70f3, #d6d2e6);
+  padding: 2rem;
+  gap: 10px;
+}
+.common-footer {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.icon-div {
+  width: 10rem;
+  font-size: 2rem;
+  justify-content: space-around;
+  display: flex;
+}
+.fa-brands:hover {
+  color: #5228f9;
+  font-size: 2.2rem;
+  transition: all 0.5s linear;
+  transform: rotate(360deg);
+}
+.common-footer a {
+  color: black;
+}
+.footer3 .store-div {
+  display: flex;
+  gap: 3px;
+}
+/* footer section end here */

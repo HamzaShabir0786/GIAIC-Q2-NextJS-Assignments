@@ -1,0 +1,90 @@
+.section-contact {
+  padding: 3rem;
+  background-color: #cdc1ff;
+  width: 100%;
+  height: 70vh;
+}
+.contact-div {
+  width: 100%;
+  height: auto;
+  padding: 4rem 3rem;
+  display: grid;
+  grid-template-rows: repeat(2, 50px);
+  grid-template-columns: repeat(2, minmax(290px, 1fr));
+  grid-auto-rows: 50px;
+
+  gap: 10px;
+}
+.contact-items {
+  background-color: #e5d9f2;
+  border-radius: 5px;
+  padding-left: 0.2rem;
+}
+.contact-item5 {
+  grid-column: span 2;
+}
+.contact-item1 {
+  display: flex;
+  align-items: center;
+}
+.info-flex {
+  display: flex;
+  align-items: center;
+  border-radius: 2px;
+  padding: 2px;
+  width: 100%;
+  height: auto;
+}
+.info-flex label {
+  display: inline-block;
+  width: 8rem;
+}
+.contact-inputs {
+  border-radius: 5px;
+  padding: 1rem;
+  width: 100%;
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+textarea {
+  background-color: transparent;
+  border: none;
+}
+.wrapper-send-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 12vh;
+}
+.send-message-btn {
+  padding: 1rem;
+  width: 14rem;
+  height: 3.5rem; /*new add*/
+  color: #5228f9;
+  background: linear-gradient(40deg, #8a70f3, white);
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 1.2rem;
+  transition: all 0.2s linear;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4);
+  animation: move-btn 0.5s alternate-reverse infinite;
+}
+@keyframes move-btn {
+  from {
+    width: 14rem;
+    height: 3.5rem;
+  }
+  to {
+    width: 14.4rem;
+    height: 3.9rem;
+  }
+}
+.send-message-btn:hover {
+  background: linear-gradient(40deg, #5228f9, white);
+  transform: scale(1.1);
+  color: black;
+}
+/* contact section end here */
