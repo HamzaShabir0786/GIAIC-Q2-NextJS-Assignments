@@ -98,6 +98,7 @@ body {
   gap: 10px;
   position: relative;
 }
+
 .grid-1 {
   padding-top: 10rem;
   padding-left: 1rem;
@@ -121,7 +122,8 @@ body {
 .grid-1 button {
   padding: 1rem;
   width: 14rem;
-  font-weight: 800;
+  font-weight: 600;
+  font-size: 1.5rem;
   background: linear-gradient(40deg, #8a70f3, white);
   border: none;
   border-radius: 20px;
@@ -131,7 +133,18 @@ body {
   font-size: 1.2rem;
   transition: all 0.2s linear;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4);
-  /* s */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.fa-arrow-right {
+  background-color: #8a70f3;
+  color: white;
+  height: 1.8rem;
+  width: 1.8rem;
+  border-radius: 50%;
+  align-content: center;
+  margin-left: 1rem;
 }
 .grid-1 button:hover {
   background: linear-gradient(40deg, #5228f9, white);

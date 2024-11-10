@@ -1,7 +1,7 @@
 import Services from "../services/page";
 import Tools from "../tools/page";
 import Image from "next/image";
-import Link from "next/link";
+
 import { Metadata } from "next";
 export const metadata: Metadata = {
   title: "home",
@@ -22,10 +22,12 @@ export default function Homes() {
             Numpy.God willing, in the future, I will be able to work on AI-based
             projects.
           </p>
+
           <button>
-            <Link href="/contact" target="_blank">
+            <a href="/contact" target="_blank">
               Contact
-            </Link>
+              <i className="fa-solid fa-arrow-right"></i>
+            </a>
           </button>
         </div>
         {/* grid 1 end here */}
