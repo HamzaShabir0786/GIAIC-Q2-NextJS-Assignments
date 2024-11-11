@@ -67,7 +67,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgb(58, 14, 14);
 }
 .grid-1 button:hover {
   background: linear-gradient(40deg, #5228f9, white);
