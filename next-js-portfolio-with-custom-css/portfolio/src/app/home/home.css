@@ -53,6 +53,8 @@
 }
 .grid-1 button a {
   color: #5b36f3;
+  display: flex;
+  align-items: center;
 }
 .fa-arrow-right {
   background-color: #8a70f3;
