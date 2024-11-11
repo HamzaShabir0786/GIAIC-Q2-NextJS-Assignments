@@ -53,6 +53,7 @@
 }
 .grid-1 button a {
   color: #5b36f3;
+
   display: flex;
   align-items: center;
 }
@@ -129,7 +130,7 @@
   fill: #cdc1ff;
 }
 /* main section end here */
-@media (max-width: 1460px) {
+/* @media (max-width: 1460px) {
   .tool-grid-con {
     grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
     grid-template-rows: repeat(2, 200px);
@@ -299,4 +300,4 @@
     height: auto;
     padding-bottom: 5rem;
   }
-}
+} */
