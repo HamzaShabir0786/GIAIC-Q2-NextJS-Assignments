@@ -1,5 +1,5 @@
-import Tools from "../pages/tools/page";
-import Services from "../pages/services/page";
+import Tools from "../tools/page";
+import Services from "../services/page";
 import Image from "next/image";
 import "./home.css";
 import "../globals.css";

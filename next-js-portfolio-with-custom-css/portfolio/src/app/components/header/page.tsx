@@ -1,5 +1,6 @@
 import Link from "next/link";
 import "./header.css";
+import "../../globals.css";
 
 export default function Header() {
   return (

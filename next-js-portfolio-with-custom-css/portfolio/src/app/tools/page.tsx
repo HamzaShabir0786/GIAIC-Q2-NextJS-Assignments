@@ -1,5 +1,6 @@
 import Image from "next/image";
 import "./tools.css";
+import "../globals.css";
 
 export default function Tools() {
   return (

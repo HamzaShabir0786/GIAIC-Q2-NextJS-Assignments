@@ -4,7 +4,7 @@ import Image from "next/image";
 // import { faHome } from "@fortawesome/free-solid-svg-icons";
 // import { fa0 } from "@fortawesome/free-solid-svg-icons/fa0";
 import "./footer.css";
-
+import "../../globals.css";
 export default function Footer() {
   return (
     <>
