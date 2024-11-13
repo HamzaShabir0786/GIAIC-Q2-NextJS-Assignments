@@ -1,6 +1,7 @@
 import Image from "next/image";
 import "./tools.css";
 import "../globals.css";
+import { dataTools } from "../components/dataForTools/page";
 
 export default function Tools() {
   return (
@@ -15,106 +16,20 @@ export default function Tools() {
           </p>
         </div>
         <div className="tool-grid-con">
-          <div className="tool-items html">
-            <Image
-              className="tool-img"
-              src="/image/html.png"
-              width={100}
-              height={100}
-              alt="it is a skill pic"
-              title="html"
-            />
-          </div>
-          <div className="tool-items css">
-            <Image
-              className="tool-img"
-              src="/image/css.png"
-              width={100}
-              height={100}
-              alt="it is a skill pic"
-              title="css"
-            />
-          </div>
-          <div className="tool-items tailwind">
-            <Image
-              className="tool-img"
-              src="/image/tailwind.png"
-              width={100}
-              height={100}
-              alt="it is a skill pic"
-              title="tailwind css"
-            />
-          </div>
-          <div className="tool-items js">
-            <Image
-              className="tool-img"
-              src="/image/js.png"
-              width={100}
-              height={100}
-              alt="it is a skill pic"
-              title="javascript "
-            />{" "}
-          </div>
-          <div className="tool-items ts">
-            <Image
-              className="tool-img"
-              src="/image/ts.png"
-              width={100}
-              height={100}
-              alt="it is a skill pic"
-              title="typescript"
-            />{" "}
-          </div>
-          <div className="tool-items react">
-            <Image
-              className="tool-img"
-              src="/image/react.png"
-              width={100}
-              height={100}
-              alt="it is a skill pic"
-              title="react js"
-            />{" "}
-          </div>
-          <div className="tool-items next">
-            <Image
-              className="tool-img"
-              src="/image/next.png"
-              width={100}
-              height={100}
-              alt="it is a skill pic"
-              title="next js"
-            />{" "}
-          </div>
-          <div className="tool-items py">
-            <Image
-              className="tool-img"
-              src="/image/python.png"
-              width={100}
-              height={100}
-              alt="it is a skill pic"
-              title="python"
-            />
-          </div>
-          <div className="tool-items pandas">
-            <Image
-              className="tool-img"
-              src="/image/pandas.png"
-              width={100}
-              height={100}
-              alt="it is a skill pic"
-              title="pandas"
-            />{" "}
-          </div>
-          <div className="tool-items numpy">
-            <Image
-              className="tool-img"
-              src="/image/numpy.png"
-              width={100}
-              height={100}
-              alt="it is a skill pic"
-              title="numpy"
-            />
-          </div>
+          {dataTools.map((datatool, index) => {
+            return (
+              <div key={index} className="tool-items">
+                <Image
+                  className="tool-img"
+                  src={datatool.src}
+                  width={100}
+                  height={100}
+                  alt={datatool.alt}
+                  title={datatool.title}
+                />
+              </div>
+            );
+          })}
         </div>
       </section>
     </>
