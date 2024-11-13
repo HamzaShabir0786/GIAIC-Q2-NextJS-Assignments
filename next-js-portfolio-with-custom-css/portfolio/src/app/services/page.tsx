@@ -37,7 +37,7 @@ export default function Services() {
             </p>
             <button>
               <Link href="/contact" target="_blank">
-                Buy Services
+                Buy Service
               </Link>
             </button>
           </div>
@@ -59,7 +59,7 @@ export default function Services() {
             </p>
             <button>
               <Link href="/contact" target="_blank">
-                Buy Services
+                Buy Service
               </Link>
             </button>
           </div>
@@ -81,7 +81,7 @@ export default function Services() {
             </p>
             <button>
               <Link href="/contact" target="_blank">
-                Buy Services
+                Buy Service
               </Link>
             </button>
           </div>
@@ -103,7 +103,7 @@ export default function Services() {
             </p>
             <button>
               <Link href="/contact" target="_blank">
-                Buy Services
+                Buy Service
               </Link>
             </button>
           </div>
@@ -125,7 +125,7 @@ export default function Services() {
             </p>
             <button>
               <Link href="/contact" target="_blank">
-                Buy Services
+                Buy Service
               </Link>
             </button>
           </div>
@@ -147,7 +147,7 @@ export default function Services() {
             </p>
             <button>
               <Link href="/contact" target="_blank">
-                Buy Services
+                Buy Service
               </Link>
             </button>
           </div>
