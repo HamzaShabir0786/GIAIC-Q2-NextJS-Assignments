@@ -1,7 +1,17 @@
 import Image from "next/image";
 import Link from "next/link";
+type Service = {
+  imageSrc: string;
+  imageWidth: number;
+  imageHeight: number;
+  imageAlt: string;
+  strongText: string;
+  paragraphText: string;
+  buttonLink: string;
+  buttonText: string;
+};
 
-export const dataServices = [
+export const dataServices: Service[] = [
   {
     imageSrc: "/image/web dev pic.png",
     imageWidth: 60,

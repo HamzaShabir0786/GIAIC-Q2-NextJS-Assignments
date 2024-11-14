@@ -1,4 +1,12 @@
-export const dataTools = [
+type Tools = {
+  className: string;
+  src: string;
+  width: number;
+  height: number;
+  alt: string;
+  title: string;
+};
+export const dataTools: Tools[] = [
   {
     className: "tool-img",
     src: "/image/html.png",
