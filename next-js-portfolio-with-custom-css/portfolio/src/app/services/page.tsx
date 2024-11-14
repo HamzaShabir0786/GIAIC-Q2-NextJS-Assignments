@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Link from "next/link";
+
 import { Metadata } from "next";
 import "./services.css";
 import "../globals.css";
@@ -35,9 +35,9 @@ function Services() {
                 <br />
                 <p>{items.paragraphText} </p>
                 <button>
-                  <Link href={items.buttonLink} target="_blank">
+                  <a href={items.buttonLink} target="_blank">
                     {items.buttonText}
-                  </Link>
+                  </a>
                 </button>
               </div>
             );
