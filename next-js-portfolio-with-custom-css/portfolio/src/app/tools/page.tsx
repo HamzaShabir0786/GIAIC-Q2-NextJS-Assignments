@@ -3,7 +3,7 @@ import "./tools.css";
 import "../globals.css";
 import { dataTools } from "../components/dataForTools/page";
 
-export default function Tools() {
+function Tools() {
   return (
     <>
       <section className="section-tool">
@@ -35,3 +35,4 @@ export default function Tools() {
     </>
   );
 }
+export default Tools;

@@ -8,7 +8,7 @@ import { dataServices } from "../components/dataForServices/page";
 export const metadata: Metadata = {
   title: "Services",
 };
-export default function Services() {
+function Services() {
   return (
     <>
       <div className="section-services">
@@ -20,8 +20,7 @@ export default function Services() {
         </p>
 
         <div className="services-grid">
-          
-        {dataServices?.map((items, index) => {
+          {dataServices?.map((items, index) => {
             return (
               <div className="grid-items item-2" key={index}>
                 <div className="skill-div">
@@ -48,3 +47,4 @@ export default function Services() {
     </>
   );
 }
+export default Services;
