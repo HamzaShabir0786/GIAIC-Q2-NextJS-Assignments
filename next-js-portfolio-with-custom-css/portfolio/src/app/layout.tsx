@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 // import "./globals.css";
 import Header from "./components/header/page";
-import Footer from "./components/footer/page";
+import Footer from "./components/footer/data2";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 // import { styleText } from "util";
 

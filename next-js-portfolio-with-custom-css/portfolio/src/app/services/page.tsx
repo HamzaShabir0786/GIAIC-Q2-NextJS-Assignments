@@ -3,7 +3,7 @@ import Link from "next/link";
 import { Metadata } from "next";
 import "./services.css";
 import "../globals.css";
-import { dataServices } from "../components/dataForServices/page";
+import { dataServices } from "../components/dataForServices/data";
 
 export const metadata: Metadata = {
   title: "Services",
