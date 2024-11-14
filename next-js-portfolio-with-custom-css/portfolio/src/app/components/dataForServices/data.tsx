@@ -19,7 +19,7 @@ export const dataServices: Service[] = [
     paragraphText:
       "I’m a passionate web developer. If you’re looking for a unique, fully responsive, and user-friendly website, feel free to contact me..!", // Replace with the actual text you want
     buttonLink: "/contact",
-    buttonText: "Contact Me ", // Replace with the actual button text you want
+    buttonText: "Buy Service ", // Replace with the actual button text you want
   },
   {
     imageSrc: "/image/ui ux.png",
@@ -30,7 +30,7 @@ export const dataServices: Service[] = [
     paragraphText:
       "I'm a passionate UI UX Designer.If you want to unique, fully actractivness and userfrinedly website so contact me  ",
     buttonLink: "/contact",
-    buttonText: "Contact Me",
+    buttonText: "Buy Service",
   },
   {
     imageSrc: "/image/SEO.png",
@@ -41,7 +41,7 @@ export const dataServices: Service[] = [
     paragraphText:
       "I'm aSEO Developer.If you want to unique, and highly well rank SEO for all browser so contact me.",
     buttonLink: "/contact",
-    buttonText: "Contact Me",
+    buttonText: "Buy Service",
   },
   {
     imageSrc: "/image/Graphic.avif",
@@ -52,7 +52,7 @@ export const dataServices: Service[] = [
     paragraphText:
       "I'm a Graphic Designer.If you want to unique, fully actractiv and userfrinedly Graphics so contact me.",
     buttonLink: "/contact",
-    buttonText: "Contact Me",
+    buttonText: "Buy Service",
   },
   {
     imageSrc: "/image/video-editing.png",
@@ -63,7 +63,7 @@ export const dataServices: Service[] = [
     paragraphText:
       "I'm a Video Editor. If you want to unique videos so contact me.My tools for video editing are Adobe premier pro and Filmora.",
     buttonLink: "/contact",
-    buttonText: "Contact Me",
+    buttonText: "Buy Service",
   },
   {
     imageSrc: "/image/web-hosting.png",
@@ -74,6 +74,6 @@ export const dataServices: Service[] = [
     paragraphText:
       "I'm a Web-Developer as well Hoster.You can hire me as a front-end webdeveloper and hoster.",
     buttonLink: "/contact",
-    buttonText: "Contact Me",
+    buttonText: "Buy Service",
   },
 ];

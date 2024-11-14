@@ -75,17 +75,17 @@
   font-weight: 700;
   font-size: 1.2rem;
 }
-.grid-items button:hover a {
+/* .grid-items button:hover a {
   color: white;
-}
+} */
 .grid-items button:hover {
   background: linear-gradient(40deg, #5228f9, white);
   transform: scale(1.1);
-
+  /* 
   background-image: url("../../../public/image/greeting.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: center; */
 }
 /* services secntion end here */
 @media (max-width: 1460px) {
