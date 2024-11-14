@@ -8,7 +8,7 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
   title: "home",
 };
-export default function Homes() {
+export default function Home() {
   return (
     <>
       <main className="home-main">
@@ -27,7 +27,7 @@ export default function Homes() {
 
           <button>
             <a href="/contact" target="_blank">
-              Contact
+              Contact Me
               <i className="fa-solid fa-arrow-right"></i>
             </a>
           </button>

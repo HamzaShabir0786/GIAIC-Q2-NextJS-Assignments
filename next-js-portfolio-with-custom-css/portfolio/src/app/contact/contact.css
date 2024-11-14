@@ -4,6 +4,7 @@
   width: 100%;
   height: 70vh;
 }
+
 .contact-div {
   width: 100%;
   height: auto;
@@ -12,7 +13,6 @@
   grid-template-rows: repeat(2, 50px);
   grid-template-columns: repeat(2, minmax(290px, 1fr));
   grid-auto-rows: 50px;
-
   gap: 10px;
 }
 .contact-items {
@@ -85,7 +85,10 @@ textarea {
 .send-message-btn:hover {
   background: linear-gradient(40deg, #5228f9, white);
   transform: scale(1.1);
-  color: black;
+  /* color: black; */
+}
+.send-message-btn:hover {
+  color: white;
 }
 /* contact section end here */
 @media (max-width: 1460px) {

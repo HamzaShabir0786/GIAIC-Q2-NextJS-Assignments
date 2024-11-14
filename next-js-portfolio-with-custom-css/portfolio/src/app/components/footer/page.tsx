@@ -1,18 +1,39 @@
+// "use client";
 import Image from "next/image";
-
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// import { faHome } from "@fortawesome/free-solid-svg-icons";
-// import { fa0 } from "@fortawesome/free-solid-svg-icons/fa0";
+import React, { useState } from "react";
 import "./footer.css";
 import "../../globals.css";
 export default function Footer() {
+  // const [buttonStyle, setButtonStyle] = useState({});
+  // const [buttonStyle2, setButtonStyle2] = useState({});
+  // const [bgBodyColor, setBgBodyColor] = useState({});
+  // let mood = "on";
+
+  // function roll() {
+  //   const rollStyle = {
+  //     marginLeft: "100%",
+  //     transform: "translate(-100%)",
+  //   };
+  //   setButtonStyle(rollStyle);
+
+  //   const colorMoodStyle = {
+  //     backgroundColor: "red",
+  //     color: "white",
+  //   };
+  //   setButtonStyle2(colorMoodStyle);
+
+  //    const bgBodyStyle = {
+  //       backgroundImage: "linear-gradient(to left, red, pink)",
+  //     };
+  //     setBgBodyColor(bgBodyStyle);
+
+  // }
   return (
     <>
       <footer>
-        <div className="section-footer">
+        <div className="section-footer" /*style={bgBodyColor}*/>
           <div className="footer1 common-footer">
             <h3>Contact</h3>
-
             <p>
               <strong>Phone No: </strong>
               <a href="tel:03183246070">03183246070</a>
@@ -28,6 +49,7 @@ export default function Footer() {
             <p>
               <strong>Follow me:</strong>
             </p>
+
             <div className="icon-div">
               <a href="https://www.facebook.com/M.Hamza2205" target="_blank">
                 <i className="fa-brands fa-facebook"></i>
@@ -48,6 +70,16 @@ export default function Footer() {
                 <i className="fa-brands fab fa-github"></i>
               </a>
             </div>
+            {/* 
+            <div className="color-mood" style={buttonStyle2}>
+              <div
+                className="color-mood-roll"
+                style={buttonStyle}
+                onClick={roll}
+              >
+                on
+              </div>
+            </div> */}
           </div>
           <div className="footer2 common-footer">
             <h3>More Information</h3>

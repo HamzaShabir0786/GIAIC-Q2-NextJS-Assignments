@@ -11,7 +11,7 @@ export default function Header() {
             <div className="logo-div">
               <strong>
                 <Link href={"./home"} className="logo">
-                  Portfolio
+                  Portfolio &#9752;
                 </Link>
               </strong>
             </div>

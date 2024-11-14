@@ -72,7 +72,15 @@
 .grid-1 button:hover {
   background: linear-gradient(40deg, #5228f9, white);
   scale: 1.1;
+  background-image: url("../../../public/image/greeting.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
+.grid-1 button:hover a {
+  color: white;
+}
+
 .grid-2 {
   padding-left: 1rem;
   padding-right: 1rem;
