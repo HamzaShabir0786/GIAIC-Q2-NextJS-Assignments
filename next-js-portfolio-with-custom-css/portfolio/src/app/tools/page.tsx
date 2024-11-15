@@ -8,7 +8,7 @@ function Tools() {
     <>
       <section className="section-tool">
         <div className="tool-info-div">
-          <h3>Here is my tools</h3>
+          <h3>Stuff for Web and AI based project development</h3>
           <p className="tool-para">
             These are the tools I use for web development and AI based project
             development.. In the future, I plan to add advanced tools like

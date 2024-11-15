@@ -5,6 +5,7 @@ import "./home.css";
 import "../globals.css";
 
 import { Metadata } from "next";
+import Projects from "../projects/page";
 export const metadata: Metadata = {
   title: "home",
 };
@@ -70,6 +71,7 @@ export default function Home() {
       </main>
       <Services />
       <Tools />
+      <Projects />
     </>
   );
 }

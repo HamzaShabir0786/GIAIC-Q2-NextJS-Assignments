@@ -7,6 +7,9 @@
 .section-services h2 {
   font-size: 2rem;
   color: #8a70f3;
+  background-color: #e5d9f2;
+  padding: 1rem;
+  border-radius: 30px;
 
   display: inline-block;
 }
