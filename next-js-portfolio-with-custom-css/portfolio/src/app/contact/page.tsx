@@ -62,7 +62,7 @@ export default function Contact() {
                   type="email"
                   name="Email"
                   required
-                  id="adress"
+                  id="email"
                   className="contact-inputs"
                   placeholder="xyz@example.com"
                 />

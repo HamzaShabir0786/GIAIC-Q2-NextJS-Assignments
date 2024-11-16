@@ -1,11 +1,10 @@
+import { Metadata } from "next";
 import Tools from "../tools/page";
 import Services from "../services/page";
 import Image from "next/image";
 import "./home.css";
 import "../globals.css";
 
-import { Metadata } from "next";
-import Projects from "../projects/page";
 export const metadata: Metadata = {
   title: "home",
 };
@@ -71,7 +70,6 @@ export default function Home() {
       </main>
       <Services />
       <Tools />
-      <Projects />
     </>
   );
 }
