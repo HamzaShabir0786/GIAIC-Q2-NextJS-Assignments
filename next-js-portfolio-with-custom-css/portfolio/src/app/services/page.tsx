@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { dataServices } from "../../../public/dataServices";
+import  dataServices from "../../../public/dataServices.json";
 import { Metadata } from "next";
 import "./services.css";
 import "../globals.css";

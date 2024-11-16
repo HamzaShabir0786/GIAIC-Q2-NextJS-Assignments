@@ -1,7 +1,7 @@
 import Image from "next/image";
 import "./tools.css";
 import "../globals.css";
-import { dataTools } from "../../../public/dataTools";
+import  dataTools from "../../../public/dataTools.json";
 
 function Tools() {
   return (
