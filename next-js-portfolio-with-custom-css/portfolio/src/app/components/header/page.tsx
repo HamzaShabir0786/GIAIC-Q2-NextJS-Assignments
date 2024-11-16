@@ -11,7 +11,9 @@ export default function Header() {
             <div className="logo-div">
               <strong>
                 <Link href={"./home"} className="logo">
-                  Portfolio &#9752;
+                  <p>
+                    <span>P</span>ortfolio <span> &#9752;</span>  
+                  </p>
                 </Link>
               </strong>
             </div>
