@@ -1,9 +1,9 @@
 import Image from "next/image";
-
+import { dataServices } from "../../../public/dataServices";
 import { Metadata } from "next";
 import "./services.css";
 import "../globals.css";
-import { dataServices } from "../components/dataForServices/data";
+// import { dataServices } from "../components/dataForServices/data";
 
 export const metadata: Metadata = {
   title: "Services",
