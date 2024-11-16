@@ -21,7 +21,7 @@ export default function Contact() {
                   name="name"
                   id="firstName"
                   className="contact-inputs"
-                  placeholder="What is your name?"
+                  placeholder="Enter your name"
                 />
               </div>
             </div>
@@ -35,7 +35,7 @@ export default function Contact() {
                   name="Last Name"
                   id="lastName"
                   className="contact-inputs"
-                  placeholder="What is your last name?"
+                  placeholder="Enter your last name"
                 />
               </div>
             </div>
@@ -49,7 +49,7 @@ export default function Contact() {
                   name="Adress"
                   id="adress"
                   className="contact-inputs"
-                  placeholder="What is your Adress?"
+                  placeholder="Enter your Adress"
                 />
               </div>
             </div>
