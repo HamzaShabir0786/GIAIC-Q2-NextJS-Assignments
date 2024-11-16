@@ -49,7 +49,7 @@ export default function Contact() {
                   name="Adress"
                   id="adress"
                   className="contact-inputs"
-                  placeholder="Enter your Adress"
+                  placeholder="Enter your Address"
                 />
               </div>
             </div>
