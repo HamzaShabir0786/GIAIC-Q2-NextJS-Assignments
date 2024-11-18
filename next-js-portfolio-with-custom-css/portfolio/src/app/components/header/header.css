@@ -48,7 +48,7 @@
   }
   100% {
     transform: translateX(4px);
-    color: rgb(102, 24, 212);
+    color: rgb(102, 25, 212);
   }
 }
 .inner-nav .links-div ul {
