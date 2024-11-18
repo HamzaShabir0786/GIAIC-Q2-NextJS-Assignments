@@ -14,7 +14,7 @@
   z-index: 999;
 }
 .inner-nav {
-  padding: 0.5rem;
+  padding: 0.3rem;
   width: 70%;
   border-radius: 30px;
   background-color: #cdc1ff;
@@ -34,7 +34,15 @@
   background-repeat: no-repeat;
   background-size: 8.3rem 2.9rem;
   background-position-y: center;
+  border: 2px solid transparent;
+  border-radius: 30px;
+  border-right-color: #5228f9;
+  border-left-color: #5228f9;
+  background-color: #e5d9f2;
+  background-color: #dbd4f7;
+  padding: 0 .3rem 0 .3rem;
 }
+
 .inner-nav .logo-div strong .logo span {
   color: black;
   animation: Pany 2s alternate-reverse infinite;
