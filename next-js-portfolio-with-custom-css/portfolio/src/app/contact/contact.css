@@ -22,6 +22,7 @@
 }
 .contact-item5 {
   grid-column: span 2;
+  height: auto;
 }
 .contact-item1 {
   display: flex;
@@ -46,6 +47,7 @@
   border: none;
   outline: none;
   background-color: transparent;
+  position: relative;
 }
 textarea {
   background-color: transparent;
@@ -56,6 +58,7 @@ textarea {
   justify-content: center;
   align-items: center;
   height: 12vh;
+  height: auto;
 }
 .send-message-btn {
   padding: 1rem;
@@ -70,18 +73,8 @@ textarea {
   font-size: 1.2rem;
   transition: all 0.2s linear;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4);
-  animation: move-btn 0.5s alternate-reverse infinite;
 }
-@keyframes move-btn {
-  from {
-    width: 14rem;
-    height: 3.5rem;
-  }
-  to {
-    width: 14.4rem;
-    height: 3.9rem;
-  }
-}
+
 .send-message-btn:hover {
   background: linear-gradient(40deg, #5228f9, white);
   transform: scale(1.1);
