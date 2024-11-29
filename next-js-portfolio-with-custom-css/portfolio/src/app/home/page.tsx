@@ -22,7 +22,10 @@ export default function Home() {
             graphic design. My technical expertise includes HTML, CSS, Tailwind
             CSS, JavaScript, TypeScript, React.js, Next.js, Python, Pandas and
             Numpy.God willing, in the future, I will be able to work on AI-based
-            projects.
+            projects..
+            <span className="emoji-parent">
+              <span className="emoji">😊</span>
+            </span>
           </p>
 
           <button>
