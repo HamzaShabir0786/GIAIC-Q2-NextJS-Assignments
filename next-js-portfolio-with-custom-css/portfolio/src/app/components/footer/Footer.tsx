@@ -10,23 +10,42 @@ export default function Footer() {
   // let mood = "on";
 
   // function roll() {
-  //   const rollStyle = {
-  //     marginLeft: "100%",
-  //     transform: "translate(-100%)",
-  //   };
-  //   setButtonStyle(rollStyle);
+  //   if (mood === "on") {
+  //     mood = "off";
 
-  //   const colorMoodStyle = {
-  //     backgroundColor: "red",
-  //     color: "white",
-  //   };
-  //   setButtonStyle2(colorMoodStyle);
+  //     const rollStyle = {
+  //       marginLeft: "100%",
+  //       transform: "translate(-100%)",
+  //     };
+  //     setButtonStyle(rollStyle);
 
-  //    const bgBodyStyle = {
+  //     const colorMoodStyle = {
+  //       backgroundColor: "red",
+  //       color: "white",
+  //     };
+  //     setButtonStyle2(colorMoodStyle);
+
+  //     const bgBodyStyle = {
   //       backgroundImage: "linear-gradient(to left, red, pink)",
   //     };
   //     setBgBodyColor(bgBodyStyle);
+  //   } else if (mood == "off") {
+  //     const rollStyle = {
+  //       marginLeft: "0%",
+  //     };
+  //     setButtonStyle(rollStyle);
 
+  //     const colorMoodStyle = {
+  //       backgroundColor: "pink",
+  //       color: "green",
+  //     };
+  //     setButtonStyle2(colorMoodStyle);
+
+  //     const bgBodyStyle = {
+  //       backgroundImage: "linear-gradient(to left, red, pink)",
+  //     };
+  //     setBgBodyColor(bgBodyStyle);
+  //   }
   // }
   return (
     <>
@@ -70,8 +89,8 @@ export default function Footer() {
                 <i className="fa-brands fab fa-github"></i>
               </a>
             </div>
-            {/* 
-            <div className="color-mood" style={buttonStyle2}>
+
+            {/* <div className="color-mood" style={buttonStyle2}>
               <div
                 className="color-mood-roll"
                 style={buttonStyle}

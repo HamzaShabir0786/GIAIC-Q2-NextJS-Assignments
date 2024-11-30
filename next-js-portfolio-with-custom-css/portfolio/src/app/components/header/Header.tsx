@@ -12,7 +12,7 @@ export default function Header() {
               <strong>
                 <Link href={"./home"} className="logo">
                   <p>
-                    <span>P</span>ortfolio <span> &#9752;</span>  
+                    <span>P</span>ortfolio <span> &#9752;</span>
                   </p>
                 </Link>
               </strong>

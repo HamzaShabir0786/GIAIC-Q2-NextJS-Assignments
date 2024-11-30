@@ -214,6 +214,17 @@ h2 {
   .section-footer {
     padding: 0.2rem;
   }
+  .grid-1 p .emoji-parent span {
+    animation: emoji 0.5s linear 1 alternate-reverse;
+  }
+  @keyframes emoji {
+    from {
+      font-size: 1.4rem;
+    }
+    to {
+      font-size: 4rem;
+    }
+  }
 }
 @media (max-width: 320px) {
   .home-main {

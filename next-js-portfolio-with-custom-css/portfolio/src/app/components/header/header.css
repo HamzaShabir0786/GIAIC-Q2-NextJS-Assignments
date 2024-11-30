@@ -40,7 +40,7 @@
   border-left-color: #5228f9;
   background-color: #e5d9f2;
   background-color: #dbd4f7;
-  padding: 0 .3rem 0 .3rem;
+  padding: 0 0.3rem 0 0.3rem;
 }
 
 .inner-nav .logo-div strong .logo span {
@@ -59,6 +59,7 @@
     color: rgb(102, 25, 212);
   }
 }
+
 .inner-nav .links-div ul {
   display: flex;
   gap: 4rem;

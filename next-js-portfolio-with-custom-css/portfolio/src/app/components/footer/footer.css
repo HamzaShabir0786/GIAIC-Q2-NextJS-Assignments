@@ -23,6 +23,9 @@
   justify-content: space-around;
   display: flex;
 }
+.fa-brands {
+  position: absolute;
+}
 .fa-brands:hover {
   color: #5228f9;
   font-size: 2.2rem;
@@ -36,7 +39,7 @@
   display: flex;
   gap: 3px;
 }
-/* .color-mood {
+.color-mood {
   background-color: black;
   width: 5rem;
   padding: 0.1rem;
@@ -54,5 +57,5 @@
 
 .color-mood:hover {
   background-color: #5228f9;
-} */
-/* footer section end here */
+}
+/* footer section end here*/
