@@ -6,7 +6,7 @@
 }
 .section-services h2 {
   font-size: 2rem;
-  color: #8a70f3;
+  color: #5e38f5;
   background-color: #e5d9f2;
   padding: 1rem;
   border-radius: 30px;
@@ -144,7 +144,7 @@
     grid-column: span 2;
   }
 }
-@media (max-width: 920px) { 
+@media (max-width: 920px) {
   .services-grid {
     padding: 0.1rem;
   }
@@ -163,13 +163,13 @@
     font-size: 1rem;
     line-height: 30px;
   }
-  .section-services h2{
+  .section-services h2 {
     font-size: 1.4rem;
-    padding: .5rem;
+    padding: 0.5rem;
   }
   .section-tool .tool-info-div h3 {
     font-size: 1.4rem;
-    padding: .5rem;
+    padding: 0.5rem;
   }
 }
 @media (max-width: 800px) {

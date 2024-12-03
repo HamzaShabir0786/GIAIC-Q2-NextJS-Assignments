@@ -5,7 +5,7 @@
 
 .section-tool h3 {
   font-size: 2rem;
-  color: #8a70f3;
+  color: #5e38f5;
   background-color: #e5d9f2;
   padding: 1rem;
   border-radius: 30px;
@@ -132,7 +132,7 @@
   }
   .section-tool .tool-info-div h3 {
     font-size: 1.4rem;
-    padding: .5rem;
+    padding: 0.5rem;
   }
 }
 @media (max-width: 800px) {
