@@ -48,7 +48,7 @@ export default function Footer() {
   //   }
   // }
   return (
-    <>
+    <div className="wrapper">
       <footer>
         <div className="section-footer" /*style={bgBodyColor}*/>
           <div className="footer1 common-footer">
@@ -148,6 +148,6 @@ export default function Footer() {
           </div>
         </div>
       </footer>
-    </>
+    </div>
   );
 }

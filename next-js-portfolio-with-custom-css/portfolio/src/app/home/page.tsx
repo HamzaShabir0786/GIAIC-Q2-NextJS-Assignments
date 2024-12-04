@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 };
 export default function Home() {
   return (
-    <>
+    <div className="wrapper">
       <main className="home-main">
         <div className="grid-1">
           <strong>This is a portfolio</strong>
@@ -73,6 +73,6 @@ export default function Home() {
       </main>
       <Services />
       <Tools />
-    </>
+    </div>
   );
 }

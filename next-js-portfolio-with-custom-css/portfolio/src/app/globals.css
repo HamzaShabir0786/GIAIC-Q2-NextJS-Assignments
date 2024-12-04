@@ -17,7 +17,13 @@
   background-color: #8a70f3;
 }
 body {
-  background-color: #cdc1ff;
+  background: linear-gradient(to bottom, white, #9557fa);
+  height: 100vh !important;
+}
+
+.wrapper {
+  max-width: 2000px;
+  margin: auto;
 }
 /* not found  start here */
 .outer-not-found {
