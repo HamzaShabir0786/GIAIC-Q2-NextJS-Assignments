@@ -1,6 +1,5 @@
 .section-footer {
   height: auto;
-
   width: 100%;
   display: grid;
   grid-template-columns: repeat(3, minmax(300px, 1fr));
@@ -17,14 +16,23 @@
   flex-direction: column;
   justify-content: space-between;
 }
+
 .icon-div {
-  width: 10rem;
   font-size: 2rem;
-  justify-content: space-around;
   display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 16rem;
+  padding-right: 2rem;
+  height: 3rem;
+  border: 3px solid #5228f9;
+  border-radius: 20px;
+  background: linear-gradient(40deg, #8a70f3, #d6d2e6);
 }
+
 .fa-brands {
   position: absolute;
+  margin-top: -1rem;
 }
 .fa-brands:hover {
   color: #5228f9;
@@ -39,7 +47,7 @@
   display: flex;
   gap: 3px;
 }
-.color-mood {
+/* .color-mood {
   background-color: black;
   width: 5rem;
   padding: 0.1rem;
@@ -57,5 +65,5 @@
 
 .color-mood:hover {
   background-color: #5228f9;
-}
+} */
 /* footer section end here*/

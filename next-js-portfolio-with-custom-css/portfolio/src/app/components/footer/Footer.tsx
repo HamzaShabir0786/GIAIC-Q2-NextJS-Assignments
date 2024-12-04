@@ -70,22 +70,32 @@ export default function Footer() {
             </p>
 
             <div className="icon-div">
-              <a href="https://www.facebook.com/M.Hamza2205" target="_blank">
+              <a
+                href="https://www.facebook.com/M.Hamza2205"
+                target="_blank"
+                className="icons-a"
+              >
                 <i className="fa-brands fa-facebook"></i>
               </a>
               <a
                 href="https://www.linkedin.com/in/hamza-shabir-796b8a261/"
                 target="_blank"
+                className="icons-a"
               >
                 <i className="fa-brands fab fa-linkedin"></i>
               </a>
               <a
                 href="https://www.instagram.com/hamza_shabir_0786/?hl=en"
                 target="_blank"
+                className="icons-a"
               >
                 <i className="fa-brands fab fa-instagram"></i>
               </a>
-              <a href="https://github.com/HamzaShabir0786" target="_blank">
+              <a
+                href="https://github.com/HamzaShabir0786"
+                target="_blank"
+                className="icons-a"
+              >
                 <i className="fa-brands fab fa-github"></i>
               </a>
             </div>
