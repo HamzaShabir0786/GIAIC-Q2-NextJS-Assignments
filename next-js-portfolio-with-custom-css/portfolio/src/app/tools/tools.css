@@ -49,14 +49,14 @@
   /* border-radius: 50%; */
   animation: rotate 10s linear infinite;
 }
-@keyframes rotate {
+/* @keyframes rotate {
   from {
-    transform: scaleX(2px);
+    transform: rotateZ(0deg);
   }
   to {
-    transform: scaleX(33px);
+    transform: rotateZ(365deg);
   }
-}
+} */
 .tool-grid-con .tool-img {
   width: 100%;
   height: 100%;
