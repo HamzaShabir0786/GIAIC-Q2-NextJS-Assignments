@@ -58,5 +58,15 @@
     "paragraphText": "I'm a Web Developer as well as a Hoster. You can hire me as a front-end web developer and hoster.",
     "buttonLink": "/contact",
     "buttonText": "Buy Service"
+  },
+  {
+    "imageSrc": "/image/cms.png",
+    "imageWidth": 60,
+    "imageHeight": 48,
+    "imageAlt": "CMS",
+    "strongText": "CMS",
+    "paragraphText": "I'm a passionate Web Developer with cuting edge technoloy. You can hire me as a full statck web developer.",
+    "buttonLink": "/contact",
+    "buttonText": "Buy Service"
   }
 ]

@@ -1,52 +1,8 @@
-// "use client";
 import Image from "next/image";
-// import React, { useState } from "react";
+
 import "./footer.css";
 import "../../globals.css";
 export default function Footer() {
-  // const [buttonStyle, setButtonStyle] = useState({});
-  // const [buttonStyle2, setButtonStyle2] = useState({});
-  // const [bgBodyColor, setBgBodyColor] = useState({});
-  // let mood = "on";
-
-  // function roll() {
-  //   if (mood === "on") {
-  //     mood = "off";
-
-  //     const rollStyle = {
-  //       marginLeft: "100%",
-  //       transform: "translate(-100%)",
-  //     };
-  //     setButtonStyle(rollStyle);
-
-  //     const colorMoodStyle = {
-  //       backgroundColor: "red",
-  //       color: "white",
-  //     };
-  //     setButtonStyle2(colorMoodStyle);
-
-  //     const bgBodyStyle = {
-  //       backgroundImage: "linear-gradient(to left, red, pink)",
-  //     };
-  //     setBgBodyColor(bgBodyStyle);
-  //   } else if (mood == "off") {
-  //     const rollStyle = {
-  //       marginLeft: "0%",
-  //     };
-  //     setButtonStyle(rollStyle);
-
-  //     const colorMoodStyle = {
-  //       backgroundColor: "pink",
-  //       color: "green",
-  //     };
-  //     setButtonStyle2(colorMoodStyle);
-
-  //     const bgBodyStyle = {
-  //       backgroundImage: "linear-gradient(to left, red, pink)",
-  //     };
-  //     setBgBodyColor(bgBodyStyle);
-  //   }
-  // }
   return (
     <div className="wrapper">
       <footer>
@@ -99,16 +55,6 @@ export default function Footer() {
                 <i className="fa-brands fab fa-github"></i>
               </a>
             </div>
-
-            {/* <div className="color-mood" style={buttonStyle2}>
-              <div
-                className="color-mood-roll"
-                style={buttonStyle}
-                onClick={roll}
-              >
-                on
-              </div>
-            </div> */}
           </div>
           <div className="footer2 common-footer">
             <h3>More Information</h3>

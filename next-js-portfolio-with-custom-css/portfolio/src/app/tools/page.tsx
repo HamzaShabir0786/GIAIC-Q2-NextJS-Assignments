@@ -1,7 +1,8 @@
 import Image from "next/image";
 import "./tools.css";
 import "../globals.css";
-import  dataTools from "../../../public/dataTools.json";
+import dataTools from "../../../public/dataTools.json";
+import ToolsRotate from "../toolsRotate/page";
 
 function Tools() {
   return (
@@ -11,10 +12,11 @@ function Tools() {
           <h3>Stuff for Web and AI based project development</h3>
           <p className="tool-para">
             These are the tools I use for web development and AI based project
-            development.. In the future, I plan to add advanced tools like
-            LangGraph, LangChain, and other cutting-edge technologies.
+            development..<br></br> In the future, I plan to add advanced tools
+            like LangGraph, LangChain, and other cutting-edge technologies.
           </p>
         </div>
+
         <div className="tool-grid-con">
           {dataTools.map((datatool, index) => {
             return (

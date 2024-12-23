@@ -1,0 +1,10 @@
+[
+  { " src": "/image/python.png", " alt": "Python Image" },
+  { " src": "/image/react.png", " alt": "React Image" },
+  { " src": "/image/pandas.png", " alt": "Pandas Image" },
+  { " src": "/image/numpy.png", " alt": "Numpy Image" },
+  { " src": "/image/next.png", " alt": "Next.js Image" },
+  { " src": "/image/js.png", " alt": "JavaScript Image" },
+  { " src": "/image/css.png", " alt": "CSS Image" },
+  { " src": "/image/html.png", " alt": "HTML Image" }
+]

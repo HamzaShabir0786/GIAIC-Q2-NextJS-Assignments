@@ -1,9 +1,9 @@
+import "@fortawesome/fontawesome-free/css/all.min.css";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Header from "./components/header/Header";
 import Footer from "./components/footer/Footer";
-import "@fortawesome/fontawesome-free/css/all.min.css";
 // import { styleText } from "util";
 
 const inter = Inter({ subsets: ["latin"] });
