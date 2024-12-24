@@ -1,5 +1,5 @@
 import Image from "next/image";
-import "./ToolsRotate.css";
+// import "./ToolsRotate.css";
 
 import data from "../../../public/dataTools.json";
 function ToolsRotate() {
