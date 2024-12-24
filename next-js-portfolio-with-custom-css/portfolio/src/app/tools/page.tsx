@@ -2,7 +2,7 @@ import Image from "next/image";
 import "./tools.css";
 import "../globals.css";
 import dataTools from "../../../public/dataTools.json";
-import ToolsRotate from "../toolsRotate/page";
+// import ToolsRotate from "../toolsRotate/page";
 
 function Tools() {
   return (
