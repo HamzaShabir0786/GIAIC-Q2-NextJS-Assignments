@@ -22,9 +22,9 @@ export default function Home() {
             Generative AI at GIAIC, Karachi. I possess a diverse set of skills
             in fields like web development, UI/UX design, video editing, and
             graphic design. My technical expertise includes HTML, CSS, Tailwind
-            CSS, JavaScript, TypeScript, React.js, Next.js, Python, Pandas and
-            Numpy.God willing, in the future, I will be able to work on AI-based
-            projects..
+            CSS, JavaScript, TypeScript, React.js, Next.js, Python, Pandas
+            Headless CMS, and Numpy.God willing, in the future, I will be able
+            to work on AI-based projects..
             <span className="emoji-parent">
               <span className="emoji">😊</span>
             </span>
